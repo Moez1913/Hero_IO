@@ -1,5 +1,18 @@
 
+import { useContext } from 'react';
 import { useLoaderData, useParams } from 'react-router'
+
+import {
+
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+  CartesianGrid
+} from "recharts";
+import { AppContext } from '../../../Providers/AppProvider';
 
 
 const AppDetails = () => {
@@ -7,8 +20,10 @@ const AppDetails = () => {
     const AppId=parseInt(id)
     const AppData=useLoaderData()
     const app=AppData.find(app=>app.id===AppId)
-    const totalRatings = app.ratings.reduce((sum, r) => sum + r.count, 0);
-     
+    const chartData = [...app.ratings].reverse();
+     const { installedApps, handleInstall }=useContext(AppContext)
+     const isInstalled = installedApps.includes(app.id);
+      
   
   return (
     <div className="max-w-6xl mx-auto p-6">
@@ -58,51 +73,38 @@ const AppDetails = () => {
           </div>
 
           {/* Install Button */}
-          <button className="btn btn-success mt-6">
-            Install Now ({app.size} MB)
-          </button>
+          {/* <button onClick={()=> handleInstall(app)} disabled={isInstalled}  className={`px-4 py-2 rounded ${
+        isInstalled ? "bg-gray-400 cursor-not-allowed" : "bg-blue-500 text-white"
+      }`}>  {isInstalled ? "Installed" :`Install Now (${app.size} MB)`}
+            
+          </button> */}
+          <button
+  onClick={() => handleInstall(app)}
+  disabled={isInstalled}  className={`px-4 py-2 rounded ${
+        isInstalled ? "bg-gray-400 cursor-not-allowed" : "bg-blue-500 text-white"
+      }`}
+>
+  {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
+</button>
         </div>
       </div>
 
       {/* RATINGS SECTION */}
-      <div className="mt-8">
-  <h2 className="text-xl font-semibold mb-4">Ratings</h2>
+   <div className="mt-8">
+        <h2 className="text-xl font-semibold mb-4">Ratings</h2>
 
-  <div className="space-y-4">
-    {[...app.ratings].reverse().map((rating, i) => {
-      const maxValue = 12000; // fixed axis max
-      const percent = (rating.count / maxValue) * 100;
-
-      return (
-        <div key={i} className="flex items-center gap-4">
-          
-          {/* Y-axis */}
-          <span className="w-16 text-sm text-gray-500">
-            {rating.name}
-          </span>
-
-          {/* Bar */}
-          <div className="flex-1 bg-gray-200 h-3 rounded relative">
-            <div
-              className="bg-orange-500 h-4  transition-all duration-700"
-              style={{ width: `${percent}%` }}
-            ></div>
-          </div>
-
+        <div className="w-full h-75">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={chartData} barSize={30}  layout="vertical">
+              <CartesianGrid />
+              <XAxis type="number" />
+              <YAxis dataKey="name" reverse={true} type="category" />
+              <Tooltip />
+              <Bar dataKey="count" fill="#f97316" radius={[0, 0, 0, 0]}/>
+            </BarChart>
+          </ResponsiveContainer>
         </div>
-      );
-    })}
-  </div>
-
-  {/* X-axis */}
-  <div className="flex justify-between text-xs text-gray-400 mt-4 pl-20">
-    <span>0</span>
-    <span>3000</span>
-    <span>6000</span>
-    <span>9000</span>
-    <span>12000</span>
-  </div>
-</div>
+      </div>
       {/* DESCRIPTION */}
       <div className="mt-10">
         <h2 className="text-xl font-semibold mb-4">Description</h2>

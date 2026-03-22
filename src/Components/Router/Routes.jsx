@@ -3,6 +3,7 @@ import MainLayout from './../Layouts/MainLayout';
 import Home from './../Pages/Home/Home';
 import AllApps from "../Pages/AllApps/AllApps";
 import AppDetails from "../Pages/App/AppDetails";
+import ErrorPage from './../Pages/Errors/ErrorPage';
 
 
 
@@ -10,7 +11,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     Component:MainLayout,
-    errorElement: <div>404 Not Found</div>,
+    errorElement: <ErrorPage></ErrorPage>,
     children:[
       {
         index:true,
@@ -24,7 +25,7 @@ export const router = createBrowserRouter([
       },
       {
         path:'/appDetails/:id',
-        loader:()=>fetch('./AppData.json'),
+        loader:()=>fetch('/AppData.json'),
         Component:AppDetails
       }
     ]
