@@ -4,9 +4,12 @@ import TrendingApps from './Trending/TrendingApps';
 
 const Home = () => {
   return (
-    <div>
+    <div className=''>
       <Banner></Banner>
-      <TrendingApps></TrendingApps>
+      <div className='mt-5'>
+        <TrendingApps></TrendingApps>
+      </div>
+      
     </div>
   )
 }
