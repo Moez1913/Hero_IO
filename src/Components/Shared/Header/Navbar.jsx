@@ -8,7 +8,7 @@ const Navbar = () => {
            <div className='flex flex-col md:flex-row gap-2'>
             <NavLink to='/'>Home</NavLink>
            <NavLink to='/All'>Apps</NavLink>
-           <NavLink to='/'>Installation</NavLink>
+           <NavLink to='myApps'>Installation</NavLink>
            </div>
           </>
   return (
@@ -38,7 +38,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href="" className='flex items-center gap-1 btn'><FaGithub/>Contribute</a>
+    <a href="https://github.com/Moez1913" target='_blank' className='flex items-center gap-1 btn'><FaGithub/>Contribute</a>
   </div>
 </div>
   )

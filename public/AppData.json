@@ -289,7 +289,7 @@
   },
   {
     "id": 19,
-    "image": "https://img.icons8.com/color/256/saturn.png",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/20/be/d120befe-13c6-4362-5c8b-2455ede32bf1/MainAppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
     "title": "StarMap",
     "companyName": "Cosmic Explorers",
     "description": "Explore the galaxy with real-time star identification and astronomical events.",
@@ -319,4 +319,5 @@
       { "name": "5 star", "count": 4000 }
     ]
   }
-]
+]      
+

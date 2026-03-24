@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaRegStar } from 'react-icons/fa6';
 import { LuDownload } from 'react-icons/lu';
 import { Link } from 'react-router';
 
@@ -42,8 +43,8 @@ const{title,companyName,image,ratingAvg,downloads,id}=app
       {/* Image */}
       <figure className="px-4 pt-4">
         <img
-          src={app.image}
-          alt={app.title}
+          src={image}
+          alt={title}
           className="rounded-xl w-full h-52 object-cover"
         />
       </figure>
@@ -55,7 +56,7 @@ const{title,companyName,image,ratingAvg,downloads,id}=app
         </h2>
 
         <p className="text-sm text-gray-500">
-          {app.companyName}
+          {companyName}
         </p>
 
         {/* Rating + Download */}
@@ -63,10 +64,11 @@ const{title,companyName,image,ratingAvg,downloads,id}=app
 
            <span className="text-s font-medium flex items-center gap-1 text-green-400">
             <LuDownload />
-            {formatDownloads(downloads)}
+            { formatDownloads(downloads)}
           </span>
-          <span className="text-yellow-500 font-semibold">
-            {app.ratingAvg}
+          <span className="text-yellow-500 text-s font-medium flex items-center gap-1 ">
+            <FaRegStar />
+            {ratingAvg}
           </span>
 
          

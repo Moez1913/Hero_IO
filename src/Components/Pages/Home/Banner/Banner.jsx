@@ -15,8 +15,8 @@ const Banner = () => {
           </h1>
           <p>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
           <div className="flex gap-2 items-center justify-center">
-            <button className="flex gap-2 items-center btn"><FaGooglePlay/> GooglePlay</button>
-            <button className="flex gap-2 items-center btn"> <IoMdAppstore/>APP Store</button>
+            <a href="https://play.google.com/store/games?device=windows&pli=1" target="_blank" className="flex gap-2 items-center btn"><FaGooglePlay/> GooglePlay</a>
+            <a href="https://apps.apple.com/us/iphone/apps" target="_blank" className="flex gap-2 items-center btn"> <IoMdAppstore/>APP Store</a>
           </div>
         </div>
         {/* banner img part */}

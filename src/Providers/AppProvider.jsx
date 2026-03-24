@@ -21,9 +21,17 @@ const AppProvider = ({children}) =>{
 
     }
 
+const handleUninstall = (id) => {
+    const updated = installedApps.filter(appId => appId !== id);
+    setInstalledApps(updated);
+    localStorage.setItem("installedApps", JSON.stringify(updated));
+     toast.error('Uninstalled Successfully');
+  };
+
     const appInfo={
      installedApps,
      handleInstall,
+     handleUninstall
     }
     return(
         <AppContext.Provider value={appInfo}>

@@ -9,11 +9,11 @@ const TrendingApps = () => {
    .then(res=>res.json())
    .then(data=>setApps(data))
  },[])
-
+     const hightRatingApps = apps.sort((a, b)=> b.ratingAvg - a.ratingAvg).slice(0, 8);
   return (
     <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'>
        {
-        apps.map(app=> <SingleApp app={app} key={app.id}></SingleApp>)
+        hightRatingApps.map(app=> <SingleApp app={app} key={app.id}></SingleApp>)
        }
     </div>
   )
