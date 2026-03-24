@@ -4,14 +4,16 @@
     "image": "https://img.icons8.com/color/256/conference-call.png",
     "title": "Connect",
     "companyName": "SocialSphere Inc.",
-    "description": "Seamless real-time messaging and video calls with a modern, high-speed interface.",
+    "description": "Connect is a powerful real-time communication platform designed to bring people closer through seamless messaging and high-quality video calls. Whether you're chatting with friends, collaborating with colleagues, or hosting virtual meetings, Connect ensures lightning-fast performance with a clean and modern interface. Its intuitive design allows users of all levels to navigate effortlessly and stay connected without interruptions.\n\nWith advanced features like group chats, HD video conferencing, and secure end-to-end encryption, Connect prioritizes both performance and privacy. You can share media, documents, and voice messages instantly, making it an all-in-one communication hub. Notifications are smartly managed so you never miss an important message while avoiding unnecessary distractions.\n\nConnect continuously evolves with user-focused updates, bringing new features like AI-powered chat suggestions, background noise cancellation, and customizable themes. It’s more than just a messaging app—it's a complete digital communication ecosystem tailored for modern users.",
     "size": 45.2,
     "reviews": 12500,
     "ratingAvg": 4.5,
     "downloads": 1000000,
     "ratings": [
-      { "name": "1 star", "count": 500 }, { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 1200 }, { "name": "4 star", "count": 3500 },
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3500 },
       { "name": "5 star", "count": 7000 }
     ]
   },
@@ -20,14 +22,16 @@
     "image": "https://img.icons8.com/fluency/256/tasks.png",
     "title": "TaskMaster",
     "companyName": "Productivity Pros",
-    "description": "The ultimate project management tool featuring intuitive checklists and progress tracking.",
+    "description": "TaskMaster is your ultimate productivity companion, designed to simplify project management and daily task organization. With its intuitive interface, users can easily create tasks, set deadlines, and track progress without feeling overwhelmed. Whether you're managing personal goals or complex team projects, TaskMaster helps you stay organized and focused every step of the way.\n\nThe app offers powerful features such as drag-and-drop task boards, real-time collaboration, and smart reminders that keep you on track. You can break down large projects into manageable steps, assign responsibilities, and monitor completion rates with visually appealing dashboards. Its seamless syncing ensures your tasks are always up to date across all devices.\n\nTaskMaster also integrates with popular tools and services, allowing you to streamline your workflow and boost efficiency. With advanced analytics and performance insights, it empowers users to optimize productivity and achieve their goals faster than ever before.",
     "size": 18.5,
     "reviews": 8900,
     "ratingAvg": 4.8,
     "downloads": 500000,
     "ratings": [
-      { "name": "1 star", "count": 100 }, { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 500 }, { "name": "4 star", "count": 2200 },
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 2200 },
       { "name": "5 star", "count": 6000 }
     ]
   },
@@ -36,14 +40,16 @@
     "image": "https://img.icons8.com/color/256/heart-monitor.png",
     "title": "FitLife",
     "companyName": "HealthGenics",
-    "description": "Track your heart rate, steps, and gym progress with AI-driven health insights.",
+    "description": "FitLife is a comprehensive health and fitness application designed to help you take control of your physical well-being. From tracking daily steps to monitoring heart rate and workout sessions, FitLife provides all the tools you need to stay active and motivated. Its user-friendly interface makes it easy for beginners and fitness enthusiasts alike to manage their health goals.\n\nThe app leverages AI-driven insights to provide personalized workout recommendations, diet suggestions, and performance analysis. With features like real-time tracking, progress charts, and goal-setting tools, users can visualize their fitness journey and stay committed. Integration with wearable devices enhances accuracy and delivers a seamless experience.\n\nFitLife also focuses on long-term wellness by offering guided workouts, meditation sessions, and recovery tips. Whether you're aiming to lose weight, build muscle, or simply maintain a healthy lifestyle, FitLife acts as your personal fitness coach every step of the way.",
     "size": 62.1,
     "reviews": 15400,
     "ratingAvg": 4.2,
     "downloads": 2500000,
     "ratings": [
-      { "name": "1 star", "count": 1200 }, { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 2400 }, { "name": "4 star", "count": 4000 },
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4000 },
       { "name": "5 star", "count": 7000 }
     ]
   },
@@ -52,14 +58,16 @@
     "image": "https://img.icons8.com/color/256/yoga.png",
     "title": "ZenMind",
     "companyName": "Calm Waters LLC",
-    "description": "Beautifully designed meditation sessions to help you reduce stress and improve focus.",
+    "description": "ZenMind is a beautifully crafted meditation and mindfulness app designed to help you achieve mental clarity and emotional balance. With calming visuals and guided sessions, it creates a peaceful environment for users to relax, reduce stress, and improve focus in their daily lives.\n\nThe app includes a wide range of meditation programs, breathing exercises, and sleep stories tailored to different needs. Whether you're a beginner or an experienced practitioner, ZenMind adapts to your journey with personalized recommendations and progress tracking features that keep you motivated.\n\nZenMind goes beyond meditation by promoting a healthier lifestyle through daily reminders, mood tracking, and mindfulness challenges. It helps you build consistent habits and develop a deeper connection with your inner self, making it an essential tool for modern living.",
     "size": 35.8,
     "reviews": 21000,
     "ratingAvg": 4.9,
     "downloads": 5000000,
     "ratings": [
-      { "name": "1 star", "count": 200 }, { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 700 }, { "name": "4 star", "count": 3000 },
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 3000 },
       { "name": "5 star", "count": 17000 }
     ]
   },
@@ -68,14 +76,16 @@
     "image": "https://img.icons8.com/fluency/256/wallet.png",
     "title": "SpendWise",
     "companyName": "Fintech Solutions",
-    "description": "Secure digital wallet and automated expense tracker for smarter personal finance.",
+    "description": "SpendWise is a smart digital wallet and expense tracking application designed to help users take full control of their finances. It offers a secure and intuitive interface where users can monitor spending habits, manage transactions, and stay on top of their budgets effortlessly.\n\nWith features like automatic expense categorization, real-time transaction updates, and insightful analytics, SpendWise provides a clear overview of your financial health. Users can set savings goals, receive alerts for unusual spending, and generate detailed reports to make better financial decisions.\n\nSpendWise also ensures top-level security with encryption and biometric authentication, giving users peace of mind while managing their money. Whether you're budgeting daily expenses or planning long-term savings, SpendWise makes financial management simple and efficient.",
     "size": 22.4,
     "reviews": 6700,
     "ratingAvg": 4.4,
     "downloads": 300000,
     "ratings": [
-      { "name": "1 star", "count": 400 }, { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 1000 }, { "name": "4 star", "count": 2000 },
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2000 },
       { "name": "5 star", "count": 3000 }
     ]
   },
@@ -84,14 +94,16 @@
     "image": "https://img.icons8.com/fluency/256/controller.png",
     "title": "PixelRun",
     "companyName": "Retro Arcade Games",
-    "description": "Addictive retro-style arcade gaming with global high-score competition.",
+    "description": "PixelRun is an addictive retro-style arcade game that brings back the nostalgia of classic gaming with a modern twist. Designed with vibrant pixel graphics and smooth gameplay mechanics, it offers players an engaging experience filled with fast-paced challenges and endless excitement. Whether you're a casual gamer or a competitive player, PixelRun keeps you hooked from the very first run.\n\nThe game features multiple levels, power-ups, and unique obstacles that test your reflexes and strategy. Players can compete globally through leaderboards, challenge friends, and unlock achievements as they progress. Its responsive controls and dynamic environments ensure that every run feels fresh and thrilling.\n\nPixelRun also introduces seasonal events, customizable characters, and new gameplay modes to keep things exciting. With regular updates and community-driven improvements, it continues to evolve as a top choice for arcade game lovers worldwide.",
     "size": 85.0,
     "reviews": 45000,
     "ratingAvg": 4.1,
     "downloads": 10000000,
     "ratings": [
-      { "name": "1 star", "count": 5000 }, { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 7000 }, { "name": "4 star", "count": 10000 },
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 10000 },
       { "name": "5 star", "count": 20000 }
     ]
   },
@@ -100,14 +112,16 @@
     "image": "https://img.icons8.com/color/256/cloud-checked.png",
     "title": "CloudNotes",
     "companyName": "Skyline Tech",
-    "description": "Smart note-taking with instant sync across all your mobile and desktop devices.",
+    "description": "CloudNotes is a smart note-taking application that allows users to capture ideas, organize content, and sync data across multiple devices instantly. With a clean and distraction-free interface, it helps you focus on what truly matters—your thoughts and productivity. Whether you're jotting down quick notes or creating detailed documents, CloudNotes makes the process seamless.\n\nThe app offers powerful features such as real-time cloud synchronization, tagging, and advanced search functionality. Users can easily categorize notes, attach files, and collaborate with others in shared workspaces. Its offline mode ensures that you can continue working even without an internet connection.\n\nCloudNotes prioritizes security and reliability by using encrypted storage and automatic backups. With continuous updates and integrations with productivity tools, it becomes an essential companion for students, professionals, and creatives alike.",
     "size": 12.9,
     "reviews": 3200,
     "ratingAvg": 4.6,
     "downloads": 150000,
     "ratings": [
-      { "name": "1 star", "count": 50 }, { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 400 }, { "name": "4 star", "count": 1000 },
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
       { "name": "5 star", "count": 1600 }
     ]
   },
@@ -116,14 +130,16 @@
     "image": "https://img.icons8.com/fluency/256/partly-cloudy-day.png",
     "title": "SkyCast",
     "companyName": "MeteoGroup",
-    "description": "Precision weather tracking with stunning visual radar and severe storm alerts.",
+    "description": "SkyCast is a precision weather tracking app that delivers accurate forecasts with stunning visual presentations. Designed to keep users informed about changing weather conditions, it combines real-time data with beautiful radar maps and intuitive dashboards. Whether you're planning your day or preparing for severe weather, SkyCast provides reliable insights.\n\nThe app includes features such as hourly and weekly forecasts, severe weather alerts, and customizable notifications. Users can track storms, monitor temperature changes, and receive timely updates that help them stay safe and prepared. Its smooth animations and responsive interface enhance the overall user experience.\n\nSkyCast continues to innovate with AI-powered predictions and global weather coverage. With its focus on accuracy and usability, it stands out as a must-have app for anyone who values dependable weather information.",
     "size": 28.3,
     "reviews": 18000,
     "ratingAvg": 4.3,
     "downloads": 2000000,
     "ratings": [
-      { "name": "1 star", "count": 1000 }, { "name": "2 star", "count": 1200 },
-      { "name": "3 star", "count": 2800 }, { "name": "4 star", "count": 5000 },
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 5000 },
       { "name": "5 star", "count": 8000 }
     ]
   },
@@ -132,14 +148,16 @@
     "image": "https://img.icons8.com/fluency/256/chef-hat.png",
     "title": "RecipeBox",
     "companyName": "Culinary Apps",
-    "description": "Organize your favorite recipes and discover new ones from world-class chefs.",
+    "description": "RecipeBox is your personal digital cookbook designed to help you organize, discover, and share delicious recipes with ease. With a user-friendly interface, it allows you to store your favorite dishes and explore new culinary inspirations from around the world. Whether you're a beginner or a seasoned chef, RecipeBox enhances your cooking experience.\n\nThe app features step-by-step cooking guides, ingredient tracking, and smart recommendations based on your preferences. Users can create custom collections, plan meals, and even generate shopping lists automatically. Its interactive features make cooking more enjoyable and efficient.\n\nRecipeBox also connects you with a community of food lovers where you can share recipes, tips, and reviews. With continuous updates and new features, it evolves into a complete culinary companion for every kitchen.",
     "size": 54.7,
     "reviews": 9800,
     "ratingAvg": 4.7,
     "downloads": 750000,
     "ratings": [
-      { "name": "1 star", "count": 100 }, { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 800 }, { "name": "4 star", "count": 2700 },
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2700 },
       { "name": "5 star", "count": 6000 }
     ]
   },
@@ -148,30 +166,34 @@
     "image": "https://img.icons8.com/color/256/shield.png",
     "title": "SafePass",
     "companyName": "CyberShield",
-    "description": "End-to-end encrypted password management with biometric unlock features.",
+    "description": "SafePass is a highly secure password management application designed to protect your digital identity. It allows users to store, manage, and generate strong passwords in a safe and encrypted environment. With its intuitive design, SafePass ensures that managing passwords becomes effortless and stress-free.\n\nThe app includes features like biometric authentication, auto-fill capabilities, and cross-device synchronization. Users can securely access their credentials anytime while maintaining maximum privacy. Its advanced encryption technology ensures that sensitive data remains protected at all times.\n\nSafePass continuously updates its security protocols to stay ahead of emerging threats. With added features like breach alerts and security audits, it empowers users to maintain strong online security practices in an increasingly digital world.",
     "size": 15.2,
     "reviews": 5400,
     "ratingAvg": 4.9,
     "downloads": 400000,
     "ratings": [
-      { "name": "1 star", "count": 40 }, { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 300 }, { "name": "4 star", "count": 1000 },
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1000 },
       { "name": "5 star", "count": 4000 }
     ]
   },
-  {
+   {
     "id": 11,
     "image": "https://img.icons8.com/fluency/256/musical-notes.png",
     "title": "VibeCheck",
     "companyName": "AudioStream",
-    "description": "Lossless audio streaming with personalized playlists based on your mood.",
+    "description": "VibeCheck is a premium music streaming application designed to deliver a personalized listening experience tailored to your mood and preferences. With its sleek interface and high-quality audio playback, users can enjoy their favorite tracks, discover new artists, and create playlists effortlessly. Whether you're relaxing, working, or exercising, VibeCheck adapts to your vibe.\n\nThe app features AI-powered recommendations, curated playlists, and lossless audio streaming for an immersive sound experience. Users can explore genres, follow artists, and share music with friends in real time. Offline mode ensures that your favorite songs are always accessible, even without an internet connection.\n\nVibeCheck continuously evolves with new features like mood detection, smart playlists, and live radio sessions. It transforms everyday listening into a dynamic and engaging musical journey for users worldwide.",
     "size": 42.0,
     "reviews": 11000,
     "ratingAvg": 4.5,
     "downloads": 1200000,
     "ratings": [
-      { "name": "1 star", "count": 500 }, { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1500 }, { "name": "4 star", "count": 2500 },
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 6000 }
     ]
   },
@@ -180,14 +202,16 @@
     "image": "https://img.icons8.com/fluency/256/navigation.png",
     "title": "RoadTrip",
     "companyName": "GeoNav Systems",
-    "description": "Intelligent navigation for explorers looking to discover the path less traveled.",
+    "description": "RoadTrip is an intelligent navigation application built for travelers and explorers who love discovering new routes and destinations. With real-time GPS tracking and smart route suggestions, it ensures a smooth and efficient journey whether you're commuting daily or embarking on an adventure.\n\nThe app provides detailed maps, traffic updates, and alternative route options to help you avoid delays and reach your destination faster. Users can save favorite locations, explore nearby attractions, and receive voice-guided navigation for a hands-free experience.\n\nRoadTrip also introduces features like trip planning, travel history, and offline maps, making it a reliable companion for both urban and remote journeys. Its focus on accuracy and usability makes every trip safer and more enjoyable.",
     "size": 110.5,
     "reviews": 7600,
     "ratingAvg": 4.2,
     "downloads": 850000,
     "ratings": [
-      { "name": "1 star", "count": 600 }, { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 1600 }, { "name": "4 star", "count": 2000 },
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2000 },
       { "name": "5 star", "count": 3000 }
     ]
   },
@@ -196,14 +220,16 @@
     "image": "https://img.icons8.com/fluency/256/programming.png",
     "title": "LearnCode",
     "companyName": "EduTech Labs",
-    "description": "Interactive coding challenges to help you master React, Node, and Python.",
+    "description": "LearnCode is an interactive learning platform designed to help users master programming skills in a fun and engaging way. From beginner-friendly tutorials to advanced coding challenges, it provides structured learning paths for technologies like React, Node.js, and Python.\n\nThe app features hands-on exercises, real-time code editors, and instant feedback to help users understand concepts effectively. Gamified lessons and achievement systems keep learners motivated while tracking their progress.\n\nLearnCode also offers community support, mentorship opportunities, and project-based learning to enhance real-world skills. It’s an all-in-one solution for aspiring developers aiming to build a strong foundation in software development.",
     "size": 48.9,
     "reviews": 25000,
     "ratingAvg": 4.8,
     "downloads": 3000000,
     "ratings": [
-      { "name": "1 star", "count": 500 }, { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 2000 }, { "name": "4 star", "count": 5000 },
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5000 },
       { "name": "5 star", "count": 17000 }
     ]
   },
@@ -212,14 +238,16 @@
     "image": "https://img.icons8.com/fluency/256/shopping-bag.png",
     "title": "ShopDrop",
     "companyName": "Retail Hub",
-    "description": "Fast and secure mobile shopping with exclusive drops from top brands.",
+    "description": "ShopDrop is a fast and secure mobile shopping application that brings the latest products and exclusive deals right to your fingertips. With a modern and intuitive interface, users can browse categories, discover trending items, and shop effortlessly.\n\nThe app offers personalized recommendations, secure payment options, and real-time order tracking to enhance the shopping experience. Users can save favorites, receive notifications for discounts, and enjoy seamless checkout processes.\n\nShopDrop continues to innovate with features like flash sales, brand collaborations, and user reviews. It creates a dynamic shopping environment that keeps users engaged and satisfied with every purchase.",
     "size": 39.4,
     "reviews": 14000,
     "ratingAvg": 4.0,
     "downloads": 2200000,
     "ratings": [
-      { "name": "1 star", "count": 2000 }, { "name": "2 star", "count": 1500 },
-      { "name": "3 star", "count": 2500 }, { "name": "4 star", "count": 3000 },
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 3000 },
       { "name": "5 star", "count": 5000 }
     ]
   },
@@ -228,14 +256,16 @@
     "image": "https://img.icons8.com/fluency/256/compact-camera.png",
     "title": "PhotoEdit",
     "companyName": "Visionary Software",
-    "description": "Professional-grade photo editing with layers, filters, and AI background removal.",
+    "description": "PhotoEdit is a professional-grade photo editing application designed for both beginners and advanced users. With powerful tools and an intuitive interface, it allows users to enhance images, apply filters, and create stunning visual content effortlessly.\n\nThe app includes advanced features such as layer editing, AI-powered background removal, and precision color adjustments. Users can transform their photos with creative effects and export high-quality images for social media or professional use.\n\nPhotoEdit continuously evolves with new tools and updates, ensuring that users always have access to the latest editing technologies. It’s the perfect companion for anyone looking to elevate their photography and design skills.",
     "size": 74.2,
     "reviews": 19500,
     "ratingAvg": 4.6,
     "downloads": 4000000,
     "ratings": [
-      { "name": "1 star", "count": 800 }, { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 2000 }, { "name": "4 star", "count": 4000 },
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4000 },
       { "name": "5 star", "count": 12000 }
     ]
   },
@@ -244,14 +274,16 @@
     "image": "https://img.icons8.com/fluency/256/news.png",
     "title": "NewsWire",
     "companyName": "Global Media",
-    "description": "Curated news from trusted global sources delivered in a clean, readable format.",
+    "description": "NewsWire is a curated news application designed to deliver the latest headlines, in-depth articles, and global updates in a clean and readable format. It aggregates news from trusted sources and presents it with a focus on clarity, speed, and user engagement.\n\nUsers can customize their news feed based on interests, follow topics or regions, and receive real-time notifications for breaking stories. The app also offers offline reading, multimedia content, and analytical insights for a richer understanding of current events.\n\nNewsWire emphasizes reliability and neutrality, ensuring that readers access accurate and timely information. Continuous updates and AI-driven recommendations make it an essential app for anyone who wants to stay informed in today’s fast-paced world.",
     "size": 25.6,
     "reviews": 10500,
     "ratingAvg": 4.3,
     "downloads": 1800000,
     "ratings": [
-      { "name": "1 star", "count": 500 }, { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 2000 }, { "name": "4 star", "count": 3000 },
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3000 },
       { "name": "5 star", "count": 4000 }
     ]
   },
@@ -260,14 +292,16 @@
     "image": "https://img.icons8.com/fluency/256/collaboration.png",
     "title": "WorkSync",
     "companyName": "Collab Tools",
-    "description": "Optimize team communication with threaded chats and project milestones.",
+    "description": "WorkSync is a collaboration and project management app built to streamline team communication, task tracking, and workflow management. Its intuitive design helps teams stay organized and ensures everyone is on the same page.\n\nFeatures include task assignments, real-time chat, file sharing, project timelines, and activity dashboards. Users can monitor progress, set deadlines, and track productivity metrics with ease.\n\nWorkSync also supports integrations with other productivity tools, offering automated notifications and reporting to improve efficiency. Whether for startups, enterprises, or remote teams, it provides a centralized platform for better teamwork and project success.",
     "size": 51.3,
     "reviews": 8200,
     "ratingAvg": 4.5,
     "downloads": 600000,
     "ratings": [
-      { "name": "1 star", "count": 300 }, { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 1000 }, { "name": "4 star", "count": 2500 },
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 4000 }
     ]
   },
@@ -276,14 +310,16 @@
     "image": "https://img.icons8.com/color/256/dog.png",
     "title": "PetLog",
     "companyName": "Animal Care Apps",
-    "description": "Log your pet's health, diet, and training progress in one simple app.",
+    "description": "PetLog is a comprehensive pet management application designed to help pet owners track their pets' health, diet, and training progress. It provides an easy-to-use platform to maintain vaccination records, feeding schedules, and medical history.\n\nUsers can set reminders for vet appointments, medication, and daily walks. The app also offers training tips, health monitoring, and activity tracking to ensure pets remain healthy and happy.\n\nPetLog fosters a connected pet-owner community, where users can share experiences, advice, and pet profiles. Regular updates and added features make it an indispensable companion for responsible pet care.",
     "size": 21.8,
     "reviews": 4100,
     "ratingAvg": 4.7,
     "downloads": 200000,
     "ratings": [
-      { "name": "1 star", "count": 50 }, { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 400 }, { "name": "4 star", "count": 1000 },
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
       { "name": "5 star", "count": 2500 }
     ]
   },
@@ -292,14 +328,16 @@
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/20/be/d120befe-13c6-4362-5c8b-2455ede32bf1/MainAppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
     "title": "StarMap",
     "companyName": "Cosmic Explorers",
-    "description": "Explore the galaxy with real-time star identification and astronomical events.",
+    "description": "StarMap is an astronomy app that allows users to explore the night sky with real-time star identification and celestial navigation. With interactive maps and augmented reality features, it turns stargazing into an immersive experience.\n\nUsers can track planets, stars, constellations, and upcoming astronomical events. Educational content, guided tours, and telescope integration help beginners and enthusiasts deepen their knowledge.\n\nStarMap updates constantly with celestial events, observation guides, and user community contributions. It’s a must-have for anyone passionate about exploring the universe and observing the wonders of space.",
     "size": 95.4,
     "reviews": 32000,
     "ratingAvg": 4.9,
     "downloads": 2500000,
     "ratings": [
-      { "name": "1 star", "count": 200 }, { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 1500 }, { "name": "4 star", "count": 5000 },
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 5000 },
       { "name": "5 star", "count": 25000 }
     ]
   },
@@ -308,16 +346,17 @@
     "image": "https://img.icons8.com/fluency/256/lotus.png",
     "title": "DeepBreath",
     "companyName": "Wellness Hub",
-    "description": "Quick daily breathing exercises to reduce stress and center your mind.",
+    "description": "DeepBreath is a wellness application focused on guided breathing exercises and stress reduction techniques. The app helps users improve mental clarity, reduce anxiety, and maintain a healthy lifestyle through daily mindfulness practices.\n\nUsers can choose from different breathing routines, meditation sessions, and relaxation exercises. Progress tracking, reminders, and calming visualizations make it easy to build a consistent wellness habit.\n\nDeepBreath continuously adds new exercises, guided sessions, and tips for holistic wellness. It’s an essential tool for anyone looking to manage stress, enhance focus, and achieve inner balance.",
     "size": 14.7,
     "reviews": 6000,
     "ratingAvg": 4.8,
     "downloads": 900000,
     "ratings": [
-      { "name": "1 star", "count": 50 }, { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 600 }, { "name": "4 star", "count": 1250 },
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1250 },
       { "name": "5 star", "count": 4000 }
     ]
   }
-]      
-
+]

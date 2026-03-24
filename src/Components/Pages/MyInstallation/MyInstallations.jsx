@@ -63,7 +63,7 @@ const sortedApps = [...installedAppList].sort((a, b) => {
           
             {sortedApps.length>0 ? ( <div>
               {sortedApps.map((app) => (
-        <li className="border-2 border-solid border-base-200 md:mx-40 list-none mb-1">
+        <li key={app.id} className="border-2 border-solid border-base-200 md:mx-40 list-none mb-1">
           <div className="flex justify-between px-1 items-center  ">
             <div className="flex gap-2 p-1 ">
               <img class="size-16 rounded-box" src={app.image} />
