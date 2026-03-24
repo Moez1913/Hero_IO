@@ -1,9 +1,11 @@
 import { useContext, useState } from "react";
 import { AppContext } from "../../../Providers/AppProvider";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import { FaRegStar } from "react-icons/fa6";
 import { LuDownload } from "react-icons/lu";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import ErrorImg from '../../../assets/App-Error.png'
+
 
 const MyInstallations = () => {
   const { installedApps, handleUninstall } = useContext(AppContext);
@@ -57,9 +59,10 @@ const sortedApps = [...installedAppList].sort((a, b) => {
              <li><button onClick={()=>setSortType('low-high')}>Low-High</button></li> 
             </ul>
           </details>
-        </div>
-        {
-      sortedApps.map((app) => (
+        </div> 
+          
+            {sortedApps.length>0 ? ( <div>
+              {sortedApps.map((app) => (
         <li className="border-2 border-solid border-base-200 md:mx-40 list-none mb-1">
           <div className="flex justify-between px-1 items-center  ">
             <div className="flex gap-2 p-1 ">
@@ -89,6 +92,47 @@ const sortedApps = [...installedAppList].sort((a, b) => {
           </div>
         </li>
       ))}
+            </div>
+              
+          
+      
+            )  :(
+               <div className=" flex flex-col items-center justify-center bg-gray-100 px-4">
+      
+      {/* Image */}
+      <img
+        src={ErrorImg}
+        alt="Error"
+        className="w-80 md:w-96 mb-6"
+      />
+
+      {/* Title */}
+      <h1 className="text-3xl md:text-4xl font-bold mb-2">
+       <span className="text-purple-500"> Oops!</span>  No App Found
+      </h1>
+
+      {/* Description */}
+      <p className="text-gray-500 text-center max-w-md mb-6">
+      You Have No Installed App
+      </p>
+
+      {/* Button */}
+      <Link to="/">
+        <button className="px-6 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition">
+          Go Back Home
+        </button>
+      </Link>
+      <p>Or</p>
+      <Link to="/All">
+        <button className="px-6 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition">
+          Explore Our All Apps
+        </button>
+      </Link>
+
+    </div>
+            )
+          }
+        
       </div>
 
       
