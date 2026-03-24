@@ -8,12 +8,12 @@ const Banner = () => {
     <section className="mt-10">
       <section>
         {/* title part */}
-        <div className="text-center">
-          <h1 className="text-3xl font-bold">
+        <div className="text-center flex flex-col gap-4">
+          <h1 className="text-5xl font-bold">
             We Build <br />
             <span className="text-purple-500">Productive</span> Apps
           </h1>
-          <p>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+          <p className="text-sm text-gray-600">At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
           <div className="flex gap-2 items-center justify-center">
             <a href="https://play.google.com/store/games?device=windows&pli=1" target="_blank" className="flex gap-2 items-center btn"><FaGooglePlay/> GooglePlay</a>
             <a href="https://apps.apple.com/us/iphone/apps" target="_blank" className="flex gap-2 items-center btn"> <IoMdAppstore/>APP Store</a>
@@ -31,15 +31,27 @@ const Banner = () => {
     <h1 className="text-center text-3xl font-bold text-white">
         Trusted by Millions, Built for You
     </h1>
-    <div>
-        <div className="text-white">
-            <p>Total Downloads</p>
-            <h1 className="text-6xl font-bold ">29.6M</h1>
-            <p>21% more than last month</p>
-        </div>
-        <div></div>
-        <div></div>
-    </div>
+   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center mt-7">
+
+  <div className="text-white">
+    <p>Total Downloads</p>
+    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">29.6M</h1>
+    <p>21% more than last month</p>
+  </div>
+
+  <div className="text-white">
+    <p>Total Reviews</p>
+    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">906K</h1>
+    <p>46% more than last month</p>
+  </div>
+
+  <div className="text-white">
+    <p>Active Apps</p>
+    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">29.6M</h1>
+    <p>31 More will Launch</p>
+  </div>
+
+</div>
    </div>
       </section>
     </section>
