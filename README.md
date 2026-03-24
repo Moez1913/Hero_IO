@@ -1,16 +1,17 @@
-# 🦸‍♂️ Hero IO
+# 
+Hero IO
 
 A modern and responsive App Store web application built with React.
 
-## 🌐 Live Demo
+## Live Demo
 **Live Link:** https://preeminent-lollipop-8653db.netlify.app
 
-## 📌 Project Description
+## Project Description
 Hero IO is a beautiful app discovery platform where users can browse, search, view details, and install mobile apps. It includes Home, All Apps, App Details, and My Installations pages with full functionality like live search, sorting, localStorage-based installation, and charts.
 
 This project is submitted as **Assignment 03**.
 
-## ✨ Features
+## Features
 
 - Fully Responsive Design (Mobile + Desktop)
 - Live Search (Case Insensitive)
@@ -23,7 +24,7 @@ This project is submitted as **Assignment 03**.
 - Custom 404 Error Page
 - Smooth Routing with React Router
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - React.js
 - Tailwind CSS
