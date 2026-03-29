@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router'
 import SingleApp from '../../App/SingleApp'
+import { MdArrowOutward } from 'react-icons/md'
 
 const TrendingApps = () => {
  const [apps,setApps]=useState([])
@@ -21,6 +23,9 @@ const TrendingApps = () => {
        {
         hightRatingApps.map(app=> <SingleApp app={app} key={app.id}></SingleApp>)
        }
+    </div> 
+    <div>
+    <Link to="/All" className=" w-40 mx-auto text-white flex  items-center gap-1 btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] mb-10">View All Apps<MdArrowOutward /></Link>
     </div>
         </div>
   )
