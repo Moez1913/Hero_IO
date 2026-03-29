@@ -15,26 +15,9 @@ const SingleApp = ({app}) => {
   if (num >= 1_000) {           // 1K+
     return (num / 1_000).toFixed(1).replace(/\.0$/, '') + 'K';
   }
-  return num.toString();        // ছোট সংখ্যা যেমন আছে তেমন
+  return num.toString();       
 }
-//      {
-//     "id": 17,
-//     "title": "Recipe Book",
-//     "companyName": "CookMaster",
-//     "image": "https://source.unsplash.com/400x300/?recipe,cooking",
-//     "description": "Explore and cook delicious recipes from around the world.",
-//     "size": 38,
-//     "reviews": 1020,
-//     "ratingAvg": 4.5,
-//     "downloads": 36000,
-//     "ratings": [
-//       { "name": "1 star", "count": 30 },
-//       { "name": "2 star", "count": 70 },
-//       { "name": "3 star", "count": 200 },
-//       { "name": "4 star", "count": 400 },
-//       { "name": "5 star", "count": 320 }
-//     ]
-//   },
+
 const{title,companyName,image,ratingAvg,downloads,id}=app
   return (
     <Link to={`/appDetails/${id}`}>

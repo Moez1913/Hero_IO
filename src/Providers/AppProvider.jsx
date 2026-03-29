@@ -16,7 +16,7 @@ const AppProvider = ({children}) =>{
     setInstalledApps(updated);
     localStorage.setItem("installedApps", JSON.stringify(updated));
 
-    toast.success(`${app.title} installed`);
+    toast.success(`${app.title} installed successfully!`);
       
 
     }
